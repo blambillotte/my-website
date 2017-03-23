@@ -82,7 +82,7 @@ a {
 	height: 40px;
 	background-color: #1874d2;
 	border: solid grey .5px;
-	transition: .7s;
+	transition: .5s;
 }
 
 	.Nav #NavSelect:hover {
@@ -113,6 +113,13 @@ img {
 	animation-name: image-slide;
   	animation-duration: 5s;
  	animation-iteration-count: 10;
+}
+
+/* Testing out JS to toggle an Image */
+#on-click{
+	display: none;
+	position: absolute;
+    height: 90%;
 }
 
 /*Animation Test*/
